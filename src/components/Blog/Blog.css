@@ -1,0 +1,180 @@
+.button-like {
+    border: 2px;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 0px;
+    width: 40px;
+    font-weight: bold;
+    height: 30px;
+    position: relative;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50rem;
+    color: rgb(119, 221, 119);
+    transition: all ease 0.4s;
+}
+
+.button-like span {
+    margin-left: 0rem;
+}
+
+.button-like .fa,
+.button-like span {
+    transition: all ease 0.4s;
+}
+
+.button-like:focus {
+    background-color: transparent;
+}
+
+.button-like:focus .fa,
+.button-like:focus span {
+    color: #8a8a8a;
+}
+
+.button-like:hover {
+    border-color: #cc4b37;
+    background-color: transparent;
+}
+
+.button-like:hover .fa,
+.button-like:hover span {
+    color: #cc4b37;
+}
+
+.liked {
+    background-color: #cc4b37;
+    border-color: #cc4b37;
+}
+
+.liked .fa,
+.liked span {
+    color: #fefefe;
+}
+
+.liked:focus {
+    background-color: #cc4b37;
+}
+
+.liked:focus .fa,
+.liked:focus span {
+    color: #fefefe;
+}
+
+.liked:hover {
+    background-color: #cc4b37;
+    border-color: #cc4b37;
+}
+
+.liked:hover .fa,
+.liked:hover span {
+    color: #fefefe;
+}
+
+#comment {
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 15px;
+    border-radius: 5px;
+    position: relative;
+    top: 4px;
+    background: rgb(119, 221, 119);
+    transition: background 0.3s ease;
+}
+
+#comment:hover {
+    background: #2c52ed;
+}
+
+#list {
+    background-color: #ebebeb;
+    /* Green */
+    border: none;
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+    padding: 6px 20px;
+    border-radius: 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 340px;
+    width: 80px;
+    font-size: 16px;
+}
+
+#list-comment{
+    float:right;
+}
+
+
+#list1 {
+    background-color: #ebebeb;
+    /* Green */
+    border: none;
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+    padding: 6px 20px;
+    border-radius: 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 350px;
+    width: 80px;
+    font-size: 16px;
+}
+
+#allcomments{
+
+background-color: #ebebeb;
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+    padding: 6px 20px;
+    border-radius: 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 430px;
+    width: 80px;
+    font-size: 16px;
+
+
+}
+
+.button-like-comment {
+    border: 2px;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 0px;
+    width: 40px;
+    font-weight: bold;
+    height: 30px;
+    position: relative;
+    right: 35px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50rem;
+    color: rgb(119, 221, 119);
+    transition: all ease 0.4s;
+}
+
+.button-like-comment-total {
+    width: 40px;
+    height: 30px;
+    position: relative;
+    left: 720px;
+    vertical-align: middle;
+    text-decoration: underline;
+    border-radius: 50rem;
+    color: blue;
+    
+}
+
